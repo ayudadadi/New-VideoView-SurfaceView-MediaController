@@ -1,5 +1,6 @@
 package com.example.videoview;
 
+import android.app.Activity;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,7 +10,7 @@ import android.view.View;
 
 import java.io.IOException;
 
-public class SurfaceViewActivity extends AppCompatActivity {
+public class SurfaceViewActivity extends Activity {
     private SurfaceView mySurfaceView;
     private MediaPlayer mediaPlayer;
     @Override
